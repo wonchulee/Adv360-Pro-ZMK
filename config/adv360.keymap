@@ -23,11 +23,6 @@
 
 #define THUMBS THUMBS_LEFT THUMBS_RIGHT
 
-&lt {
-    quick-tap-ms = <300>;
-    global-quick-tap;
-};
-
 / {
     behaviors {
       #include "macros.dtsi"
@@ -37,7 +32,6 @@
           label = "HOMEROW_MODS";
           #binding-cells = <2>;
           tapping-term-ms = <200>;
-          quick_tap_ms = <175>;
           flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
       };
@@ -47,7 +41,6 @@
           label = "HOMEROW_MODS_LEFT";
           #binding-cells = <2>;
           tapping-term-ms = <200>;
-          quick_tap_ms = <175>;
           flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
           hold-trigger-key-positions = <KEYS_RIGHT THUMBS>;
@@ -58,7 +51,6 @@
           label = "HOMEROW_MODS_RIGHT";
           #binding-cells = <2>;
           tapping-term-ms = <200>;
-          quick_tap_ms = <175>;
           flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
           hold-trigger-key-positions = <KEYS_LEFT THUMBS>;
