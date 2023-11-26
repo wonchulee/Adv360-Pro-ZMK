@@ -27,6 +27,7 @@
     #define _K_CTL &hm RCTRL K
     #define _S_OPT &hm LALT S   // Option on ring finger
     #define _L_OPT &hm RALT L
+    
     #define _M_SPC &lt 4 SPACE
     #define _N_BSP &lt 5 BSPC
     #define _S_ENT &lt 6 ENTER
@@ -40,7 +41,7 @@
         &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &none                                                                        &none &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
         &kp ESC   _A_CMD    _S_OPT   _D_CTL   _F_SFT     &kp G  &none           &kp DEL &kp LALT &none &none &kp LGUI  &kp RCTRL           &none &kp H  _J_SFT _K_CTL    _L_OPT   _se_CMD  &kp SQT
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B         &none    &none     &kp HOME &none &none &kp PG_UP &none     &none           &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                _M_SPC   &kp TAB   &kp END              &kp PG_DN _S_ENT _N_BSP &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
+        &mo 2     &kp GRAVE &kp CAPS &mo 5    &kp LCTRL                _M_SPC   &kp TAB   &kp END              &kp PG_DN _S_ENT _N_BSP &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
       >;
     };
     keypad {
